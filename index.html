@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="css/style.css">
+	
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="js/myscript.js"></script>
+</head>
+
+<body>
+	<div class="container-fluid">
+		<div class="page_title text-center">
+			<h1>The Beach House Goa </h1>			
+		</div>
+		<!-- Title Ends Here-->
+		
+<div class="row">
+  
+  
+  <div class="col-lg-8 col-md-8 col-sm-6">
+  
+		    <div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-12">
+				   <img src="Images/b.jpg" class="image">
+				    <div class="middle">
+    					<button class="text" data-toggle="modal" data-target="#one">Know More</button>
+  					</div>
+				</div>
+				
+				<div class="col-lg-4 col-md-4 col-sm-12">
+				    <img src="Images/b2.jpg" class="image">
+				     <div class="middle">
+    					<button class="text" data-toggle="modal" data-target="#tow">Know More</button>
+  					  </div>
+				  	</div>
+					
+					<div class="col-lg-4 col-md-4 col-sm-12  col-lg-4">
+					    <img src="Images/b2.jpg" class="image">
+					     <div class="middle">
+	    					<button class="text" data-toggle="modal" data-target="#three">Know More</button>
+	  					  </div>
+				    </div>
+					
+					<div class="col-lg-4 col-md-4 col-sm-12">
+					  <img src="Images/b2.jpg" class="image">
+				    	<div class="middle">
+    					<button class="text" data-toggle="modal" data-target="#four">Know More</button>
+  					  	</div>
+					</div>
+					
+					<div class="col-lg-4 col-md-4 col-sm-12">
+						<img src="Images/b2.jpg" class="image">
+					     <div class="middle">
+	    				<button class="text" data-toggle="modal" data-target="#five">Know More</button>
+	  					  </div>
+					</div>
+					      
+					<div class="col-lg-4 col-md-4 col-sm-12">
+					    <img src="Images/b2.jpg" class="image">
+					     <div class="middle">
+	    				<button class="text" data-toggle="modal" data-target="#six">Know More</button>
+	  					  </div>
+					</div>
+		    </div>
+  </div>
+  <div class="col-lg-4 col-md-6 col-sm-6">
+  	
+     <div class="form-bg">
+                    <form class="form" action="datasend.php" method="POST" onsubmit="return validate();">
+                    	<h1 class="text-center">  Enquire Now</h1>
+                       
+                        <div class="form-group"> <label class="sr-only">
+                        Name</label> <input type="text" class="form-control" required="" id="name" name="uname" placeholder="Name*"> 
+                           
+                        </div>
+                       
+                        <div class="form-group"> <label class="sr-only">Email</label> 
+                          <input type="email" class="form-control" required="" name="email" id="email" placeholder="Email*"> 
+                           <div id="email_error" class="error" style="color: red;"></div>
+                        </div>
+                       	
+                       	<div class="form-group"> <label class="sr-only">Phone Number</label> 
+                          <input type="tel" class="form-control" required="" id="Phone" name="ph_no" placeholder="Phone Number*"> 
+                           <div id="phone_error" class="error" style="color: red;"></div>
+                        </div>
+                       
+                       	<div class="form-group"> <label class="sr-only">Country</label> 
+                          <input type="text" class="form-control" required="" id="country" name="country" placeholder="Country*"> 
+                          
+                        </div>
+                        
+                        <div class="form-group">
+                        	<input type="text" class="form-control" id="otp" name="otp" placeholder="Validtion on mobile Number*"> 	
+                        </div>
+                       
+                       	<div class="form-group">
+                       		<p class="text-center">
+                       			We will Get back to you ASAP!<br>
+                       			* Required Fields
+                       		</p>
+                       		
+                       	</div>
+                    <div class="form-group text-center">
+                        <input type="submit" value="Submit" class="btn btn-primary">
+                    </div>
+                    </form>
+                </div>
+  </div>
+
+</div>
+
+<div class="row">
+  <div class="col-lg-3 col-md-3 col-sm-6">
+    <img src="Images/b2.jpg" class="image">
+	 <div class="middle">
+    <button class="text" data-toggle="modal" data-target="#seven">Know More</button>
+  	 </div>
+  </div>
+  
+  <div class="col-lg-3 col-md-3  col-sm-6">
+    <img src="Images/b2.jpg" class="image">
+	  <div class="middle">
+    	<button class="text" data-toggle="modal" data-target="#eight">Know More</button>
+  	  </div>
+  </div>
+  
+  <div class="col-lg-3 col-md-3 col-sm-6">
+    <img src="Images/b2.jpg" class="image">
+	   <div class="middle">
+    	<button class="text" data-toggle="modal" data-target="#nine">Know More</button>
+  	  </div>
+  </div>
+   <div class="col-lg-3 col-md-3 col-sm-6">
+    <img src="Images/b2.jpg" class="image">
+	  <div class="middle">
+    	<button class="text" data-toggle="modal" data-target="#ten">Know More</button>
+  	  </div>
+	</div>
+</div>
+
+
+<!-- Modal ONE -->
+  <div class="modal" id="one">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">YOGA</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+   			<div class="row">
+   				<div class="col-lg-2 col-md-2">
+   					<img src="Images/b2.jpg" height="100px" width="100px">
+   				</div>
+   				<div class="col-lg-10 col-md-10" style="margin-left: 3px;">
+   					<p>
+   						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+   						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+   						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+   						consequat.
+   					</p>
+   				</div>
+   				
+   			</div>     
+        </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- Modal One Ends here -->
+
+<!-- Modal ONE -->
+  <div class="modal" id="tow">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Mind Relaxation</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <img src="Images/b2.jpg">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- Modal One Ends here -->
+
+<!-- Modal ONE -->
+  <div class="modal" id="three">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Modal Heading</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+        
+        </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- Modal One Ends here -->
+
+<!-- Modal ONE -->
+  <div class="modal" id="four">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Modal Heading</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+        
+        </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- Modal One Ends here -->
+
+<!-- Modal ONE -->
+  <div class="modal" id="five">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Modal Heading</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+        
+        </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- Modal One Ends here -->
+
+<!-- Modal ONE -->
+  <div class="modal" id="six">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Modal Heading</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+        
+        </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- Modal One Ends here -->
+<!-- Modal ONE -->
+  <div class="modal" id="seven">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Modal Heading</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+        
+        </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- Modal One Ends here -->
+<!-- Modal ONE -->
+  <div class="modal" id="eight">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Modal Heading</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+        
+        </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- Modal One Ends here -->
+<!-- Modal ONE -->
+  <div class="modal" id="nine">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Modal Heading</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+        
+        </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- Modal One Ends here -->
+<!-- Modal ONE -->
+  <div class="modal" id="ten">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Modal Heading</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+        
+        </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- Modal One Ends here -->
+
+<footer class="container-fluid">
+	<div class="row">
+		<p> Copyright &copy; 2020</p>
+	</div>
+
+</footer>
+
+</body>
+</html>
